@@ -1,0 +1,19 @@
+server:
+  port: 8088
+  host: 0.0.0.0
+
+chains:
+  canto:
+    rpcURL: http://10.10.10.154:26657
+    stakingTokenDenom: acanto
+  injective:
+    rpcURL: https://injective-rpc.polkachu.com:443
+  axelar:
+    rpcURL: https://axelar-rpc.polkachu.com:443
+  band:
+    rpcURL: https://band-rpc.polkachu.com:443
+  celestia:
+    rpcURL: https://celestia-rpc.polkachu.com:443
+  osmosis:
+    rpcURL: https://osmosis-rpc.polkachu.com:443
+    
